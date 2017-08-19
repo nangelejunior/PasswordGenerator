@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configurationSnapshot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="urn:schemas-microsoft-com:xml-wcfconfigurationsnapshot">
+  <behaviors />
+  <bindings>
+    <binding digest="System.ServiceModel.Configuration.BasicHttpBindingElement, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089:&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;Data name=&quot;PasswordGeneratorPortBinding&quot; /&gt;" bindingType="basicHttpBinding" name="PasswordGeneratorPortBinding" />
+  </bindings>
+  <endpoints>
+    <endpoint normalizedDigest="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;Data address=&quot;http://54.204.32.172:8080/password-generator-1.0/passwordGenerator&quot; binding=&quot;basicHttpBinding&quot; bindingConfiguration=&quot;PasswordGeneratorPortBinding&quot; contract=&quot;WSPasswordGenerator.PasswordGenerator&quot; name=&quot;PasswordGeneratorPort&quot; /&gt;" digest="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;Data address=&quot;http://54.204.32.172:8080/password-generator-1.0/passwordGenerator&quot; binding=&quot;basicHttpBinding&quot; bindingConfiguration=&quot;PasswordGeneratorPortBinding&quot; contract=&quot;WSPasswordGenerator.PasswordGenerator&quot; name=&quot;PasswordGeneratorPort&quot; /&gt;" contractName="WSPasswordGenerator.PasswordGenerator" name="PasswordGeneratorPort" />
+  </endpoints>
+</configurationSnapshot>
